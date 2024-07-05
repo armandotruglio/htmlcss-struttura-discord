@@ -94,3 +94,48 @@
     background-color: green;
     min-height: 550px;
 }
+
+/*Footer*/
+.main-footer{
+    background-color: rgb(26, 25, 25);
+    height: 500px;
+    padding: 25px;
+}
+
+.contact-section{
+    background-color: pink;
+    min-height: 450px;
+    min-width: 50%;
+}
+
+.link-section{
+    background-color: aqua;
+    min-height: 450px;
+    min-width: 50%;
+}
+
+.link-section > *{
+    width: 25%;
+}
+
+.side-footer{
+    border: solid white 1px;
+    background-color: rgb(26, 25, 25);
+    height: 80px;
+    padding: 20px;
+}
+.side-footer-items{
+    background-color: aquamarine;
+}
+
+.logo-footer{
+    height: 40px;
+    width: 70px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.side-footer > .flex-container{
+    justify-content: space-between;
+}
