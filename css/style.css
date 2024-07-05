@@ -1,0 +1,54 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Utilities*/
+.border{
+    border: black dashed 1px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main-header{
+    min-height: 50px;
+    padding: 15px;
+    background-color:  lightblue;
+}
+
+.flex-container{
+    display: flex;
+}
+
+/*Header*/
+.logo{
+    width: 25%;
+}
+
+.links{
+    width: 50%;
+    text-align: center;
+}
+
+.login{
+    width: 25%;
+    text-align: end;
+}
+
+.download-section{
+    min-height: 300px;
+    padding: 25px;
+    background-color: blue;
+}
+
+.download-image{
+    background-color: palevioletred;
+    align-items: center;
+    height: 250px;
+    width: 600px;
+}
